@@ -2,10 +2,10 @@
 from random import randint
 import os
 
-def random_prime(mini=1000,maxi=5761):
-	#max of maxi = 5761455
+def random_prime(mini=1000,maxi=6000):
+	#max(maxi)=10.000
 	p=randint(mini,maxi)
-	with open('list_of_primes','r') as primes :
+	with open('list_of_primes_up_to_104743','r') as primes :
 		prime=primes.read()
 		prime=prime.split('\n')
 		p=prime[p]
