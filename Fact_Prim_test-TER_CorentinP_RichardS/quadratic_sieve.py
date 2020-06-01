@@ -374,8 +374,8 @@ time :	The program stops if the timeout is exceeded. if timeout == 0 , endless r
 	else :
 		#D=D_tmp
 		print("\n\tSquare found !")
-		print("\n\n\tWe have : X^2 = Y^2 mod(N)")
-		print("\n\t ", D[1] , "^2 = ", int(sqrt(D[2])), "^2 mod({})".format(N), sep='')
+		print("\n\n\tWe have : X^2 - N = Y^2")
+		print("\n\t ", D[1] , "^2 - ",N," = ", int(sqrt(D[2])), "^2", sep='')
 		print("\n\n Returning solution : N = (X-Y) * (X+Y) ")
 		F=D[0]
 
