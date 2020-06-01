@@ -130,7 +130,7 @@ def main() :
 
 	print("\n","-"*100,"\n",sep='')
 
-	print("\t . waiting for cipher encripted with you public key...")
+	print("\t . waiting for cipher encrypted with you public key...")
 	cipher=input("cipher : ")
 
 	print("\t . decrypting the cipher...")
