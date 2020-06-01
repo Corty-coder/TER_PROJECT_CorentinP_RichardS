@@ -113,7 +113,7 @@ def main() :
 	phi=(p-1)*(q-1)
 	print(" phi(n) =",phi)
 
-	print("\n\t . choising your cyphering exponent...")
+	print("\n\t . choosing your cyphering exponent...")
 	e=choose_e(phi)
 	print(" e < phi(n) and gcd(e,phi(n))=1. e =",e)
 
